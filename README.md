@@ -89,8 +89,8 @@ Then paste the entire contents of `backend/seed_graph.cypher` and run it as one 
 
 Verify:
 ```cypher
-MATCH (n) RETURN count(n) AS totalNodes;        // expect 26
-MATCH ()-[r]->() RETURN count(r) AS totalRels;  // expect ~48
+MATCH (n) RETURN count(n) AS totalNodes;        // expect 185
+MATCH ()-[r]->() RETURN count(r) AS totalRels;  // expect 330
 ```
 
 ### 4. Run the backend
